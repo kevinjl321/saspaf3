@@ -47,6 +47,7 @@ body {
     background-color: var(--secondary-bg-color);
     margin: 0 auto;
     margin-top: 10vh;
+    padding: 5px;
 }
 
 #join-container form{
@@ -58,14 +59,15 @@ body {
 }
 
 #join-container input{
-    width: 500px;
-    height: 2.5vh;
+    width: 200px;
     margin-top: 25px;
     background-color: transparent;
     border: 1.5px solid white;
     text-indent: 10px;
-    padding: auto 10px 10px;
+    padding: 5px;
     caret-color: white;
+    width: 300px;
+
 }
 
 #join-container input::placeholder{
@@ -96,11 +98,13 @@ body {
     overflow: auto;
 
 }
+
 #our-mission{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 #mission-title {
     border: 5px solid white;
     width: 500px;
@@ -109,6 +113,7 @@ body {
     background-color: white;
     margin: 0 auto;
     margin-top: 5vh;
+    padding: 5px;
 }
 #mission-text{
     border: 2px solid rgb(255, 255, 255);

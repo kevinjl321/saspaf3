@@ -10,6 +10,7 @@
     --main-font-family: 'Roboto', sans-serif;
     --main-bg-color: #C7E4DF;
     --secondary-bg-color: #53AF9E;
+    --third-color: #CFF3EC;
 }
 
 #navbar{
@@ -40,34 +41,35 @@ body {
 }
 
 #join-title {
-    border: 5px solid white;
-    width: 500px;
+    border: 10px solid white;
+    width: 900px;
     text-align: center;
     color: white;
     background-color: var(--secondary-bg-color);
     margin: 0 auto;
     margin-top: 10vh;
-    padding: 5px;
+    padding: 10px;
+    font-size: 40px;
 }
 
 #join-container form{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
 }
 
 #join-container input{
     width: 200px;
-    margin-top: 25px;
+    margin-top: 10px;
     background-color: transparent;
-    border: 1.5px solid white;
+    border: 3px solid white;
     text-indent: 10px;
-    padding: 5px;
+    padding: 10px 5px;
     caret-color: white;
     width: 300px;
-
+    font-size: 15px;
 }
 
 #join-container input::placeholder{
@@ -76,21 +78,22 @@ body {
     text-indent: 10px;
 }
 
-#submit-btn{
+#submit-btn {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    border-radius: 20px;
     background-color: var(--secondary-bg-color);
     font-weight: 1000;
     color: white;
-    margin-top: 50px;
-    width: 250px;
-    height: 50px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
     border: 2.5px solid white;
+    transition: 0.3s all;
 }
 
 #submit-btn:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 
 #info {
@@ -138,8 +141,10 @@ body {
     border: 2.5px solid white;
     font-size: 1rem;
     font-weight: 1000;
+    transition: 0.3s all;
 }
 
 #our-mission button:hover{
     opacity: 0.5;
+    cursor: pointer;
 }

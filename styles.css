@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fontlibrary.org/face/glacial-indifference');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 *{
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 :root {
-    --main-font-family: 'GlacialIndifferenceRegular', sans-serif;
+    --main-font-family: 'Montserrat', sans-serif;
     --secondary-font-family: 'Roboto', sans-serif;
     --main-bg-color: #C7E4DF;
     --secondary-bg-color: #53AF9E;
@@ -17,7 +18,7 @@
 
 #navbar {
     background-color: var(--secondary-bg-color);
-    min-height: 6vh;
+    min-height: 10vh;
     width: 100%;
     top: 0;
     position: absolute;
@@ -44,7 +45,7 @@ body {
 
 #join-title {
     border: 10px solid white;
-    width: 900px;
+    width: 1000px;
     text-align: center;
     color: white;
     background-color: var(--secondary-bg-color);

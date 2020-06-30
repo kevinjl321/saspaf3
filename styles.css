@@ -17,6 +17,8 @@
 }
 
 #navbar {
+    display: flex;
+    justify-content: space-evenly;
     background-color: var(--secondary-bg-color);
     min-height: 10vh;
     width: 100%;
@@ -30,10 +32,11 @@ body {
     overflow-x: hidden;
 }
 
-#join, #info, #upcoming, #locations {
+#join, #info, #upcoming, #locations{
     width: 100vw;
     min-height: 80vh;
 }
+
 
 .scew {
     transform: skewY(-2.5deg);
@@ -42,6 +45,8 @@ body {
 .unscew {
     transform: skewY(2.5deg);
 }
+
+
 
 #join-title {
     border: 10px solid white;
@@ -64,7 +69,6 @@ body {
 }
 
 #join-container input{
-    width: 200px;
     margin-top: 10px;
     background-color: transparent;
     border: 3px solid white;
@@ -111,6 +115,7 @@ button, input {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #mission-title {
@@ -120,7 +125,7 @@ button, input {
     color: var(--secondary-bg-color);
     background-color: white;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 10vh;
     padding: 5px;
 }
 

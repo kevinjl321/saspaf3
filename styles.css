@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-#join, #info, #upcoming {
+#join, #info, #upcoming, #locations {
     width: 100vw;
     min-height: 80vh;
 }
@@ -152,4 +152,21 @@ button, input {
 #our-mission button:hover{
     opacity: 0.5;
     cursor: pointer;
+}
+#locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+}
+#map{
+    width: 50vw;
+    height: 60vh;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#footer{
+    min-height: 10vh;
+    width: 100%;
 }

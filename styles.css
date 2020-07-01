@@ -46,8 +46,6 @@ body {
     transform: skewY(2.5deg);
 }
 
-
-
 #join-title {
     border: 10px solid white;
     width: 1000px;
@@ -174,4 +172,19 @@ button, input {
 #footer{
     min-height: 10vh;
     width: 100%;
+}
+
+#upcoming{
+    background-color: var(--main-bg-color);
+    padding: 50px 0px;
+}
+
+#upcoming-title {
+    border: 5px solid white;
+    width: 500px;
+    text-align: center;
+    color: var(--secondary-bg-color);
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5vh;
 }

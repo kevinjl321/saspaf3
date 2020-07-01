@@ -188,3 +188,39 @@ button, input {
     margin: 0 auto;
     margin-top: 5vh;
 }
+
+.event {
+    width: 300px;
+    height: 400px;
+    background-color: var(--secondary-bg-color);
+    display: inline-block;
+    margin: 30px 50px;
+    color: white;
+}
+
+.event-img img {
+    width: 300px;
+}
+
+.event-img {
+    overflow-y: hidden;
+    height: 250px;
+}
+
+.event h1 {
+    margin: 10px 0px;
+}
+
+.event button {
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: var(--secondary-bg-color);
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+.event button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

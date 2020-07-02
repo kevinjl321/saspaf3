@@ -173,7 +173,7 @@ button, input {
 #map-header{
     text-align: center;
     color: white;
-    border: 2px solid white;
+    border: 5px solid white;
     background-color: transparent;
     padding: 25px 25px 25px 25px;
     font-size: 2rem;

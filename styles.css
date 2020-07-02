@@ -32,9 +32,14 @@ body {
     overflow-x: hidden;
 }
 
-#join, #info, #upcoming, #locations{
+#join, #info, #upcoming{
     width: 100vw;
     min-height: 80vh;
+}
+
+#locations{
+    width: 100vw;
+    min-height: 90vh;
 }
 
 
@@ -156,22 +161,31 @@ button, input {
     opacity: 0.5;
     cursor: pointer;
 }
+
 #locations{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-bg-color);
+    flex-direction: column;
 }
+
+#map-header{
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 25px 25px 25px 25px;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
 #map{
+    margin-top: 2vh;
     width: 50vw;
     height: 60vh;
     border: 5px solid white;
     border-radius: 10px;
-}
-
-#footer{
-    min-height: 10vh;
-    width: 100%;
 }
 
 #upcoming{
@@ -225,4 +239,14 @@ button, input {
 .event button:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+
+
+
+
+
+
+#footer{
+    min-height: 10vh;
+    width: 100%;
 }

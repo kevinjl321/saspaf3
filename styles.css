@@ -191,7 +191,7 @@ button, input {
 
 .event {
     width: 300px;
-    height: 400px;
+    height: 500px;
     background-color: var(--secondary-bg-color);
     display: inline-block;
     margin: 30px 50px;
@@ -212,10 +212,12 @@ button, input {
 }
 
 .event button {
-    margin-top: 20px;
-    border: none;
-    background-color: white;
-    color: var(--secondary-bg-color);
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: white;
     font-size: 20px;
     transition: 0.3s all;
 }

@@ -42,7 +42,7 @@ body {
     min-height: 90vh;
 }
 
-/*
+
 .scew {
     transform: skewY(-2.5deg);
 }
@@ -50,7 +50,7 @@ body {
 .unscew {
     transform: skewY(2.5deg);
 }
-*/
+
 
 #join-title {
     border: 10px solid white;

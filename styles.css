@@ -376,3 +376,11 @@ footer{
 #newsletter > h1 {
     font-size: 20px;
 }
+
+.rights-text{
+    text-align: center;
+}
+
+.rights-text hr{
+    width: 100%;
+}

@@ -91,6 +91,13 @@ body {
     overflow-x: hidden;
 }
 
+#mapimage {
+    width: 50%;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
 #locations{
     width: 100vw;
     min-height: 100vh;

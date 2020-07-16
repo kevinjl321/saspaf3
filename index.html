@@ -8,13 +8,11 @@
         <link rel="stylesheet" href="styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Commented out to reduce using up monthly load count
         <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet'/>
-        -->
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-        <link rel="icon" href="images/rsz_logo.png">
+        <link rel="icon" href="images/favicon.png">
         <script src="https://use.fontawesome.com/80d6b49951.js"></script>
 
     </head>
@@ -53,7 +51,7 @@
 
     <body>
       
-        <div id="join" class="scew">
+        <div id="join" class="section scew">
             <div class="unscew">
                 <div id="join-title">
                     <h1>JOIN THE MOVEMENT</h1>
@@ -74,7 +72,7 @@
             </div>
         </div>
 
-        <div id="info" class="scew">
+        <div id="info" class="section scew">
             <div class="mission-statement unscew">
                 <div id="mission-title">
                     <h1>OUR MISSION</h1>
@@ -83,11 +81,9 @@
                 <div id = "our-mission">
                     <div id = "mission-text">
                         <p>
-                            <center>
-                                Support and Assistance for Single Parent families is a student-led nonprofit organization 
-                                dedicated to supporting single-parent families with financial assistance, emotional wellness 
-                                services, employment opportunities, educational support, and legislative reforms.
-                            </center>
+                            Support and Assistance for Single Parent families is a student-led nonprofit organization 
+                            dedicated to supporting single-parent families with financial assistance, emotional wellness 
+                            services, employment opportunities, educational support, and legislative reforms.
                         </p>
                     </div>
                     <button onclick="location.href='#'" type="button">LEARN MORE</button>
@@ -95,7 +91,48 @@
             </div>
         </div>
 
-        <div id="upcoming" class="scew">
+        <div id = "impact section">
+            <div id = "img-intro">
+                <h1>Helping single parent families, one service at a time.</h1>
+                <p>
+                    !CHANGE THIS Support and Assistance for Single Parent families is a student-led nonprofit organization 
+                    dedicated to supporting single-parent families with financial assistance, emotional wellness 
+                    services, employment opportunities, educational support, and legislative reforms.
+                </p>
+                <img src = "images/map-area.png">
+            </div>
+            <div id = "stats">
+                <h2>OUR IMPACT:</h2>
+                <div class = "stat-container">
+                    <h1>400</h1>
+                    <br>
+                    <p>meals provided</p>
+                </div>
+                <div class = "stat-container">
+                    <h1>$8000</h1>
+                    <br>
+                    <p>fundraised</p>
+                </div>
+                <div class = "stat-container">
+                    <h1>7</h1>
+                    <br>
+                    <p>communities in need helped</p>
+                </div>
+                <div class = "stat-container">
+                    <h1>2500</h1>
+                    <br>
+                    <p>single parent families helped</p>
+                </div>
+                <div class = "stat-container">
+                    <h1>450+</h1>
+                    <br>
+                    <p>meals provided</p>
+                </div>
+            </div>
+            <p>and counting...</p>
+        </div>
+
+        <div id="upcoming section" class="scew">
             <div class = "unscew" style="text-align: center;">
                 <div id="upcoming-title">
                     <h1>UPCOMING</h1>
@@ -134,17 +171,22 @@
 
         <div id="locations" class="scew">
             <div class = "unscew" id = "map-header">FIND A SERVICE AREA</div>
-            <div class = "unscew" id="map"></div>
+            <div class = "unscew" id="map">
+                <p>
+                    <center>
+                        Whether it's helping us deliver food baskets to families in need, or taking an hour or two to give the gift of education to a child, you are 
+                        making a difference by lending a helping hand.
+                    </center>
+                </p>
+            </div>
         </div>
 
-        <div id = "donate">
+        <div id = "donate" class = "section">
             <div id = "donate-content">
                 <h1>PAY IT FORWARD.</h1>
 
                 <p>
-                    <center>
-                        Your generous, tax-deductible donation will be used to support our services and our effort to make a difference in the lives of single parents.
-                    </center>
+                    Your generous, tax-deductible donation will be used to support our services and our effort to make a difference in the lives of single parents.
                 </p>
 
                 <button id = "donate-btn">FUEL OUR MOVEMENT</button>
@@ -206,8 +248,8 @@
 
             <div class = "rights-text">
                 <hr>
-                &copy; 2020 Support and Assistance for Single Parent Families | Designed and Developed by
-                Kevin Lan, Tony Xin, and Caleb Kim
+                &copy; 2020 Support and Assistance for Single Parent Families | Designed and developed by
+                Kevin Lan, Tony Xin, & Caleb Kim
             </div>
 
         </footer>

@@ -12,8 +12,9 @@
     --main-font-family: 'GlacialIndifferenceRegular', 'Montserrat';
     --secondary-font-family: 'Roboto', sans-serif;
     --main-bg-color: #C7E4DF;
-    --secondary-bg-color: #53AF9E;
+    --secondary-bg-color: #68b3a5;
     --third-color: #CFF3EC;
+    --footer-color: #89d1c6;
 }
 
 li{
@@ -22,6 +23,11 @@ li{
 
 a {
     text-decoration: none;
+}
+
+.section {
+    width: 100vw;
+    min-height: 80vh;
 }
 
 #navbar {
@@ -83,11 +89,6 @@ body {
     background-color: var(--main-bg-color);
     font-family: var(--main-font-family);
     overflow-x: hidden;
-}
-
-#join, #info, #upcoming, #donate{
-    width: 100vw;
-    min-height: 80vh;
 }
 
 #locations{
@@ -235,6 +236,7 @@ button, input {
 
 #map{
     border: 2px solid rgb(255, 255, 255);
+    height: 60vh;
     width: 50vw;
     margin: 3vh auto;
     font-size: 1.75rem;
@@ -346,6 +348,7 @@ button, input {
 footer{
   bottom: 0;
   justify-content: center;
+  background: var(--footer-color);
 }
 
 .footer-container{

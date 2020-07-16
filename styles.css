@@ -188,6 +188,7 @@ button, input {
 
 #mission-text{
     border: 2px solid rgb(255, 255, 255);
+    text-align: center;
     width: 50vw;
     margin: 3vh auto;
     font-size: 1.75rem;

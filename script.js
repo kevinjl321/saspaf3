@@ -1,4 +1,4 @@
-/* Commented out to reduce using up monthly load count
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2V2aW5qbDMyMSIsImEiOiJja2MxNHc2NzQxcTJ3MzFwM2xzbDZ1MWQ2In0.mDNPVHtcYZxBKYJ1njVYhA';
     var map = new mapboxgl.Map({
     container: 'map',
@@ -8,4 +8,4 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia2V2aW5qbDMyMSIsImEiOiJja2MxNHc2NzQxcTJ3MzFwM
 });
 
 var marker = new mapboxgl.Marker().setLngLat([12.550343, 55.665957]).addTo(map);
-*/
+

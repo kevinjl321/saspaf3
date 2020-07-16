@@ -91,16 +91,9 @@ body {
     overflow-x: hidden;
 }
 
-#mapimage {
-    width: 50%;
-    height: 10px;
-    background-repeat: no-repeat;
-    background-size: contain
-}
-
 #locations{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 /*
@@ -119,7 +112,7 @@ body {
     color: white;
     background-color: var(--secondary-bg-color);
     margin: 0 auto;
-    margin-top: 15vh;
+    margin-top: 30vh;
     padding: 10px;
     font-size: 40px;
 }
@@ -173,7 +166,6 @@ button, input {
 #info {
     background-color: var(--secondary-bg-color);
     padding: 50px 0px;
-
 }
 
 #our-mission{
@@ -244,12 +236,16 @@ button, input {
 
 #map{
     border: 2px solid rgb(255, 255, 255);
+    height: 60vh;
     width: 50vw;
-    height: 50vw;
+    margin: 3vh auto;
+    font-size: 1.75rem;
+    color: white;
     padding: 25px 25px 25px 25px;
+    background-color: var(--secondary-bg-color);
     border-radius: 5px;
+    /*probably going to add media queries*/
     overflow-y: hidden;
-
 }
 
 #upcoming{
@@ -274,10 +270,6 @@ button, input {
     display: inline-block;
     margin: 30px 50px;
     color: white;
-}
-
-#img-intro p {
-    font-size: 1.5rem;
 }
 
 .event-img img {

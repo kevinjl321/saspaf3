@@ -17,6 +17,14 @@
     --footer-color: #89d1c6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    transition: 0.3s all;
+}
+
 li{
     list-style: none;
 }
@@ -45,8 +53,14 @@ a {
     display: inline-block;
 }
 
+#nav-logo {
+    position: relative;
+    top: 0px;
+}
+
 .nav-link {
-    line-height: 80px;
+    position: relative;
+    top: 35px;
     display: inline-block;
     padding: 0px 10px;
 }
@@ -223,6 +237,10 @@ button, input {
     align-items: center;
     background-color: var(--secondary-bg-color);
     flex-direction: column;
+}
+
+#map-img {
+    height: 900px;
 }
 
 #map-header{
@@ -436,17 +454,19 @@ footer{
 
 #newsletter > h1 {
     font-size: 20px;
+    margin: 5px;
 }
 
-.rights-text{
+#rights-text {
+    padding-bottom: 5px;
     text-align: center;
 }
 
-.rights-text hr{
+#rights-text hr{
     width: 100%;
 }
 
-#volunteer-space {
+#volunteer {
     height: 400px;
     background-color: #C7E4DF;
 }
@@ -470,7 +490,7 @@ footer{
     color: var(--secondary-bg-color);
 }
 
-#volunteer-space button{
+#volunteer button{
     width: 500px;
     padding: 25px 25px 25px 25px;
     color: white;
@@ -479,7 +499,31 @@ footer{
     border: 2px solid white;
 }
 
-#volunteer-space button:hover{
+#volunteer button:hover{
     opacity: 0.5;
     cursor: pointer;
+    border: none;
+}
+
+#contact-form > input {
+    font-size: 15px;
+}
+
+#email-field {
+    height: 25px;
+    width: 150px;
+    border: none;
+}
+
+#submit-contact {
+    height: 25px;
+    width: 50px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+}
+
+#submit-contact:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }

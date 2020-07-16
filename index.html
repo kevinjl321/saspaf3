@@ -21,28 +21,28 @@
         <nav id = "navbar">
             <div id="nav-container">
                 <div class="left">
-                    <div class="nav-link">
+                    <div class="nav-link" id="nav-logo">
                         <img src = "images/logo.png" height="80px">
                     </div>
                 </div>
                 <div class="right">
                     <div class="nav-link">
-                        <a href="" class="left-animate">Home</a>
+                        <a href="/" class="left-animate">Home</a>
                     </div>
                     <div class="nav-link">
-                        <a href="" class="left-animate">About us</a>
+                        <a href="#info" class="left-animate">About us</a>
                     </div>
                     <div class="nav-link">
-                        <a href="" class="left-animate">Our Service</a>
+                        <a href="#impact" class="left-animate">Our Service</a>
                     </div>
                     <div class="nav-link">
-                        <a href="" class="left-animate">Join Our Team</a>
+                        <a href="#volunteer" class="left-animate">Join Our Team</a>
                     </div>
                     <div class="nav-link">
-                        <a href="" class="left-animate">Donate</a>
+                        <a href="#donate" class="left-animate">Donate</a>
                     </div>
                     <div class="nav-link">
-                        <a href="" class="left-animate">Contact</a>
+                        <a href="#footer" class="left-animate">Contact</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
             </div>
         </div>
 
-        <div id = "impact section">
+        <div id = "impact">
             <div id = "img-intro">
                 <h1>Helping single parent families, one service at a time.</h1>
                 <p>
@@ -99,7 +99,7 @@
                     dedicated to supporting single-parent families with financial assistance, emotional wellness 
                     services, employment opportunities, educational support, and legislative reforms.
                 </p>
-                <img src = "images/map-area.png">
+                <img src = "images/map-area.png" id="map-img">
             </div>
             <div id = "stats">
                 <h2>OUR IMPACT:</h2>
@@ -176,7 +176,7 @@
             </div>
         </div>
 
-        <div id = "volunteer-space" class = "section">
+        <div id = "volunteer" class = "section">
             <div id = "volunteer-text">
                 <h1>GET INVOLVED.</h1>
                 <p>
@@ -201,7 +201,7 @@
             </div>
         </div>
 
-        <footer>
+        <footer id="footer">
             <div class="footer-container scew">
                 
                 <!--div containing socials and small description-->
@@ -226,13 +226,15 @@
                 <!--div containing links to above pages-->
                 <div class = 'mid-col'>
                     <ul id = "footer-links">
-                        <li><a href = "#">Item</a></li>
-                        <li><a href = "#">Item</a></li>
-                        <li><a href = "#">Item</a></li>
-                        <li><a href = "#">Item</a></li>
-                        <li><a href = "#">Item</a></li>
+                        <li><a href = "/">Home</a></li>
+                        <li><a href = "#info">About us</a></li>
+                        <li><a href = "#impact">Our service</a></li>
+                        <li><a href = "#volunteer">Join Our Team</a></li>
+                        <li><a href = "#donate">Donate</a></li>
+                        <li><a href = "#footer">Contact</a></li>
                     </ul>
 
+                    
                     <ul id = "footer-details">
                         <li><a href = "#">Item</a></li>
                         <li><a href = "#">Item</a></li>
@@ -241,21 +243,21 @@
                         <li><a href = "#">Item</a></li>
                         <li><a href = "#">Item</a></li>
                     </ul>
+                    
                 </div>
                 
                  <!--div containing newsletter sign up-->
                  <div class = 'right-col' id="newsletter">
                     <h1>Keep in touch with us!</h1>
-                    <form>
-                        <input type = "text" name = "email" id = "email" placeholder = "Email address">
-                        <button type = "submit">Submit</button>
+                    <form id="contact-form">
+                        <input id="email-field" type="email" name="email" id="email" placeholder="Email address" autocomplete="off">
+                        <input id="submit-contact" type="submit" value="Join"></input>
                     </form>
                 </div>
 
             </div>
 
-            <div class = "rights-text">
-                <hr>
+            <div id = "rights-text">
                 &copy; 2020 Support and Assistance for Single Parent Families | Designed and developed by
                 Kevin Lan, Tony Xin, & Caleb Kim
             </div>

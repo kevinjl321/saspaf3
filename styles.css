@@ -305,6 +305,7 @@ button, input {
 #donate{
     display: flex;
     justify-content: center;
+    background-color: #68b3a5
 }
 
 #donate h1{
@@ -443,4 +444,26 @@ footer{
 
 .rights-text hr{
     width: 100%;
+}
+
+#volunteer-space {
+    background-color: #C7E4DF
+}
+
+#volunteer-text p {
+
+}
+
+#volunteer-text h1 {
+    width: 500px;
+    font-size: 50px;
+    text-align: left;
+    color: var(--secondary-bg-color);
+    margin: 60px;
+    margin-top: 5vh;
+    padding: 5px;
+}
+
+#stats h1 {
+    margin: 30px;
 }

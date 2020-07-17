@@ -255,7 +255,7 @@ button, input {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 80vw;
+    width: 50vw;
     text-align: center;
 }
 

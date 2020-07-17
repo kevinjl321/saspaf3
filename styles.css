@@ -14,7 +14,8 @@
     --main-bg-color: #C7E4DF;
     --secondary-bg-color: #68b3a5;
     --third-color: #CFF3EC;
-    --footer-color: #89d1c6;
+    --secondary-section-color: #c1ece4;
+    --footer-color: #bbebe3;
 }
 
 html {
@@ -49,7 +50,7 @@ a {
 }
 
 #nav-container {
-    width: 800px;
+    width: 1000px;
     display: inline-block;
 }
 
@@ -60,14 +61,15 @@ a {
 
 .nav-link {
     position: relative;
-    top: 35px;
+    top: 45px;
     display: inline-block;
     padding: 0px 10px;
+    margin-right: 1vw;
 }
 
 .nav-link > a {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a.left-animate {
@@ -231,6 +233,33 @@ button, input {
     cursor: pointer;
 }
 
+#impact{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-section-color);
+    flex-direction: column;
+}
+
+#img-intro{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
+#img-intro img{
+    width: 300px;
+    height: 300px;
+}
+
+#stats{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+    text-align: center;
+}
+
+
 #locations{
     display: flex;
     justify-content: center;
@@ -365,107 +394,6 @@ button, input {
     cursor: pointer;
 }
 
-footer{
-  bottom: 0;
-  justify-content: center;
-  background: var(--footer-color);
-}
-
-.footer-container{
-  display: flex;
-  flex-wrap: wrap-reverse;
-  flex-shrink: 0;
-  justify-content: center;
-  padding: 20px 50px;
-  width: 100%;
-}
-
-.left-col {
-    width: 300px;
-}
-
-.left-col p{
-  font-size: 16px;
-}
-
-.left-col a{
-  color: black;
-}
-
-.mid-col {
-    width: 300px;
-}
-
-.right-col {
-    width: 300px;
-}
-
-.social-media{
-  margin: 20px 0;
-  margin-top: 6vh;
-}
-
-.social-media a{
-  color: #001a21;
-  margin-right: 25px;
-  font-size: 20px;
-  text-decoration: none;
-  transition: .3s linear;
-}
-
-.social-media a:hover{
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.mid-col{
-    display: flex;
-    flex-direction: row;
-}
-
-#footer-links li{
-    font-size: 16px;
-}
-
-#footer-links a{
-    color: black;
-}
-
-#footer-links li:not(:first-child){
-    margin: 1em 0;
-}
-
-#footer-details{
-    margin-left: 3vw;
-}
-
-#footer-details li{
-    font-size: 16px;
-    font-weight: 1000;
-}
-
-#footer-details a{
-    color: black;
-}
-
-#footer-details li:not(:first-child){
-    margin: 1em 0;
-}
-
-#newsletter > h1 {
-    font-size: 20px;
-    margin: 5px;
-}
-
-#rights-text {
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-#rights-text hr{
-    width: 100%;
-}
-
 #volunteer {
     height: 400px;
     background-color: #C7E4DF;
@@ -527,3 +455,121 @@ footer{
     cursor: pointer;
     opacity: 0.7;
 }
+
+
+
+footer{
+    bottom: 0;
+    background: var(--footer-color);
+  }
+  
+  .footer-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 20px 50px;
+    width: 100%;
+  }
+  
+  .left-col {
+      width: 300px;
+  }
+  
+  .left-col p{
+    font-size: 16px;
+  }
+  
+  .left-col a{
+    color: black;
+  }
+  
+  .mid-col {
+      width: 300px;
+  }
+  
+  .right-col {
+      width: 300px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+    margin-top: 6vh;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .mid-col{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  #footer-links li{
+      font-size: 16px;
+  }
+  
+  #footer-links a{
+      color: black;
+  }
+  
+  #footer-links li:not(:first-child){
+      margin: 1em 0;
+  }
+  
+  #footer-details{
+      margin-left: 10px;
+      margin-right: 3vw;
+  }
+  
+  #footer-details li{
+      font-size: 16px;
+      font-weight: 1000;
+  }
+  
+  #footer-details a{
+      color: black;
+  }
+  
+  #footer-details li:not(:first-child){
+      margin: 1em 0;
+  }
+  
+  #newsletter > h1 {
+      font-size: 20px;
+      margin: 5px;
+  }
+  
+  #rights-text {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      font-size: 14px;
+      color: gray;
+  }
+
+
+  #contact-form > #email-field{
+    margin-top: 1vh;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+  }
+
+  #contact-form > #submit-contact{
+      margin-left: 1vw;
+      border-radius: 2px;
+      background-color: var(--secondary-bg-color);
+      width: 3vw;
+  }
+  

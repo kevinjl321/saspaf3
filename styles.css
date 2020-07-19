@@ -237,29 +237,73 @@ button, input {
     display: flex;
     justify-content: center;
     background-color: var(--secondary-section-color);
+}
+
+#impact-content{
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+#impact-text{
+    width: 40vw;
+}
+
+#impact-img{
+    width: 0vw;
 }
 
 #img-intro{
     display: flex;
     justify-content: center;
-    width: 90vw;
+    width: 60vw;
+    font-size: 25px;
+    flex-direction: row;
+}
+
+#img-intro #impact-text h1{
+    font-size: 3rem;
 }
 
 #img-intro img{
-    width: 300px;
-    height: 300px;
+    width: 35vw;
+    height: 50vh;
 }
+
 
 #stats{
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    width: 50vw;
+    flex-direction: column;
+    width: 80vw;
     text-align: center;
 }
 
+#stats-header{
+    font-weight: 1000;
+    font-size: 1rem;
+}
 
+#stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stat{
+    width: 10vw;
+    font-size: 20px;
+}
+
+.stat:not(:first-child){
+    margin-right: 2vw;
+}
+
+#counting{
+    font-size: 30px;
+    font-weight: 1000;
+}
 #locations{
     display: flex;
     justify-content: center;
@@ -458,6 +502,10 @@ button, input {
 
 
 
+
+
+
+
 footer{
     bottom: 0;
     background: var(--footer-color);
@@ -481,7 +529,7 @@ footer{
   }
   
   .left-col a{
-    color: black;
+    color: rgb(103, 129, 103);
   }
   
   .mid-col {

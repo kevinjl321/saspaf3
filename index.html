@@ -66,28 +66,28 @@
                             <input style="width: 605px" type = "text" name = "email" placeholder="EMAIL" required>
                             <input type = "text" name = "phone" placeholder = "PHONE (OPTIONAL)">
                             <input type = "text" name = "zipcode" placeholder="ZIP CODE" required>
-                            <button id = "submit-btn" type = "submit">JOIN US</button>
+                            <button class = "button" id = "submit-btn" type = "submit">JOIN US</button>
                         </div>  
                     </form>
                 </div>
             </div>
         </div>
         
-        <div id="info" class="section scew">
-            <div class="mission-statement unscew">
-                <div id="mission-title">
-                    <h1>OUR MISSION</h1>
+        <div id="mission" class="section">
+            <div class = "content" id = "mission-content">
+                <div id = "mission-text">
+                    <h1>Our Mission</h1>
+                    <br>
+                    <p>
+                        Support and Assistance for Single Parent families is a student-led nonprofit organization 
+                        dedicated to supporting single-parent families with financial assistance, emotional wellness 
+                        services, employment opportunities, educational support, and legislative reforms.
+                    </p>
+                    <br>
+                    <button class = "button" id = "mission-btn" onclick="location.href='#'" type="button">LEARN MORE</button>
                 </div>
-
-                <div id = "our-mission">
-                    <div id = "mission-text">
-                        <p>
-                            Support and Assistance for Single Parent families is a student-led nonprofit organization 
-                            dedicated to supporting single-parent families with financial assistance, emotional wellness 
-                            services, employment opportunities, educational support, and legislative reforms.
-                        </p>
-                    </div>
-                    <button onclick="location.href='#'" type="button">LEARN MORE</button>
+                <div id = "mission-img">
+                    INSERT IMAGE HERE
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@
                         you!
                     </p>
                     <br>
-                    <button id = "volunteer-btn">SIGN UP FOR AN EVENT</button>
+                    <button class = "button" id = "volunteer-btn">SIGN UP FOR AN EVENT</button>
                 </div>
                 <div id = "volunteer-img">INSERT IMAGE</div>
             </div>
@@ -188,7 +188,7 @@
                     </div>
                     <h1>Event Name</h1>
                     <p>Short description of the event</p>
-                    <button>Participate</button>
+                    <button class = "button">Participate</button>
                 </div>
 
                 <div class="event">
@@ -197,7 +197,7 @@
                     </div>
                     <h1>Event Name</h1>
                     <p>Short description of the event</p>
-                    <button>Participate</button>
+                    <button class = "button">Participate</button>
                 </div>
 
                 <div class="event">
@@ -206,7 +206,7 @@
                     </div>
                     <h1>Event Name</h1>
                     <p>Short description of the event</p>
-                    <button>Participate</button>
+                    <button class = "button">Participate</button>
                 </div>
 
             </div>
@@ -228,7 +228,7 @@
                   our services and effort to make a difference in the lives of single parents.
                 </p>
                 <br>
-                <button id = "donate-btn">Donate</button>
+                <button class = "button" id = "donate-btn">Donate</button>
             </div>
         </div>
 
@@ -246,11 +246,11 @@
                     </p>
 
                     <div class="social-media">
-                      <a href="https://www.facebook.com/saspaf/"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href=" https://www.instagram.com/saspaf/"><i class="fab fa-instagram"></i></a>
-                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                      <a href="https://greatnonprofits.org/org/support-and-assistance-for-single-parent-families"><i class="fa fa-gratipay" aria-hidden="true"></i></a>
+                      <a href="https://www.facebook.com/saspaf/"><i class="fab fa-facebook-f button"></i></a>
+                      <a href="#"><i class="fab fa-twitter button"></i></a>
+                      <a href=" https://www.instagram.com/saspaf/"><i class="fab fa-instagram button"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in button"></i></a>
+                      <a href="https://greatnonprofits.org/org/support-and-assistance-for-single-parent-families"><i class="fa fa-gratipay button" aria-hidden="true"></i></a>
                     </div>
                  </div>
 
@@ -283,7 +283,7 @@
                     <h1>Keep in touch with us!</h1>
                     <form id="contact-form">
                         <input id="email-field" type="email" name="email" id="email" placeholder="Email address" autocomplete="off">
-                        <input id="submit-contact" type="submit" value="Join"></input>
+                        <input class = "button" id="submit-contact" type="submit" value="Join"></input>
                     </form>
                 </div>
             </div>

@@ -39,6 +39,11 @@ a {
     min-height: 80vh;
 }
 
+.button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 
 .content{
     display: flex;
@@ -182,63 +187,44 @@ button, input {
     transition: 0.3s all;
 }
 
-#submit-btn:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-#info {
-    background-color: var(--secondary-bg-color);
-    padding: 50px 0px;
-}
-
-#our-mission{
+#mission {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    background-color: var(--secondary-bg-color);
 }
 
-#mission-title {
-    border: 5px solid white;
-    width: 500px;
-    text-align: center;
-    color: var(--secondary-bg-color);
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 10vh;
-    padding: 5px;
+#mission-content{
+    margin-top: 15vh;
 }
 
 #mission-text{
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
+    width: 45vw;
+}
+
+#mission-text h1{
+    font-size: 3.5rem;
+}
+
+#mission-text p{
+    font-size: 2rem;
+}
+
+#mission-img{
+    margin-left: 5vw;
     width: 50vw;
-    margin: 3vh auto;
-    font-size: 1.75rem;
+    height: 50vh;
+    background-color: var(--main-bg-color);
+}
+
+#mission-btn{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 15vw;
+    font-size: 1.5rem;
+    background-color: transparent;
     color: white;
-    padding: 25px 25px 25px 25px;
-    background-color: var(--secondary-bg-color);
-    border-radius: 5px;
-    /*probably going to add media queries*/
-    overflow-y: hidden;
-}
-
-#our-mission button{
-    margin: 0 auto;
-    width: 250px;
-    height: 6vh;
-    color: var(--secondary-bg-color);
-    background-color: white;
-    border: 2.5px solid white;
-    font-size: 1rem;
     font-weight: 1000;
-    transition: 0.3s all;
-}
-
-#our-mission button:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    border: 2px solid white;
 }
 
 #impact{
@@ -346,12 +332,6 @@ button, input {
     font-weight: 1000;
 }
 
-#volunteer-btn:hover{
-    opacity: 0.5;
-    cursor: pointer;
-    outline: none;
-}
-
 #volunteer-text h1{
     font-size: 5rem;
 }
@@ -362,8 +342,6 @@ button, input {
     height: 50vh;
     background-color:var(--secondary-bg-color);
 }
-
-
 
 #locations{
     display: flex;
@@ -397,8 +375,6 @@ button, input {
     padding: 25px 25px 25px 25px;
     background-color: var(--secondary-bg-color);
     border-radius: 5px;
-    /*probably going to add media queries*/
-    overflow-y: hidden;
 }
 
 #upcoming{
@@ -449,11 +425,6 @@ button, input {
     transition: 0.3s all;
 }
 
-.event button:hover {
-    cursor: pointer;
-    opacity: 0.5;
-}
-
 #donate{
     display: flex;
     background-color: var(--third-color);
@@ -488,13 +459,6 @@ button, input {
     font-size: 1.5rem;
     font-weight: 1000;
 }
-
-#donate-btn:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-
 
 footer{
     bottom: 0;
@@ -541,11 +505,6 @@ footer{
     font-size: 20px;
     text-decoration: none;
     transition: .3s linear;
-  }
-  
-  .social-media a:hover{
-    opacity: 0.5;
-    cursor: pointer;
   }
   
   .mid-col{
@@ -628,9 +587,3 @@ footer{
     outline: none;
     transition: 0.3s all;
    }
-
-   #submit-contact:hover {
-    cursor: pointer;
-    opacity: 0.7;
-   }
-  

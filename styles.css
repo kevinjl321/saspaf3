@@ -39,6 +39,14 @@ a {
     min-height: 80vh;
 }
 
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+}
+
 #navbar {
     background-color: var(--secondary-bg-color);
     height: 80px;
@@ -240,10 +248,8 @@ button, input {
 }
 
 #impact-content{
-    margin-top: 8vh;
-    justify-content: center;
     flex-direction: column;
-    width: 80vw;
+    margin-top: 1vh;
 }
 
 #impact-text{
@@ -322,10 +328,6 @@ button, input {
 }
 
 #volunteer-content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 80vw;
     margin-top: 10vh;
 }
 
@@ -454,56 +456,50 @@ button, input {
 
 #donate{
     display: flex;
-    justify-content: center;
     background-color: var(--third-color);
-}
-
-#donate h1{
-    border: 5px solid white;
-    width: 500px;
-    text-align: center;
-    color: var(--secondary-bg-color);
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 10vh;
-    padding: 5px;
-}
-
-#donate p{
-    border: 2px solid rgb(255, 255, 255);
-    width: 50vw;
-    margin: 3vh auto;
-    text-align: center;
-    font-size: 1.75rem;
-    color: white;
-    padding: 25px 25px 25px 25px;
-    background-color: var(--secondary-bg-color);
-    border-radius: 5px;
-    /*probably going to add media queries*/
-    overflow-y: hidden;
-}
-
-#donate button{
+    height: 50vh;
     width: 100%;
-    padding: 25px 25px 25px 25px;
-    color: white;
-    background-color:var(--secondary-bg-color);
-    font-size: 1.5rem;
-    border: 2px solid white;
 }
 
-#donate button:hover{
+#donate-content{
+    margin-left: 20vw;
+    margin-top: 5vh;
+    text-align: left;
+    width: 35vw;
+}
+
+#donate-content h1{
+    font-size: 3rem;
+}
+
+#donate-content p{
+    font-size: 2rem;
+}
+
+#donate-btn{
+    margin-top: 3vh;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background:var(--secondary-bg-color);
+    box-shadow: 0 0 20px #14e67d;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+#donate-btn:hover{
     opacity: 0.5;
     cursor: pointer;
 }
 
 
 
-
 footer{
     bottom: 0;
     background: var(--footer-color);
-  }
+}
   
   .footer-container{
     display: flex;

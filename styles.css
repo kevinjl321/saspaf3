@@ -240,7 +240,7 @@ button, input {
 }
 
 #impact-content{
-    margin-top: 5vh;
+    margin-top: 8vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -250,6 +250,8 @@ button, input {
     width: 40vw;
 }
 
+
+
 #impact-img{
     width: 0vw;
 }
@@ -258,17 +260,24 @@ button, input {
     display: flex;
     justify-content: center;
     width: 60vw;
-    font-size: 25px;
+    font-size: 2rem;
     flex-direction: row;
 }
 
-#img-intro #impact-text h1{
-    font-size: 3rem;
+#impact-text h1{
+    font-size: 3.5rem;
 }
 
 #img-intro img{
     width: 35vw;
-    height: 50vh;
+    height: 35vh;
+}
+
+.vl-impact{
+    width: 0.1vw;
+    height: 10vh;
+    border: 2px solid black;
+    margin-right: 1vw;
 }
 
 
@@ -282,7 +291,10 @@ button, input {
 
 #stats-header{
     font-weight: 1000;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
 }
 
 #stats-container{

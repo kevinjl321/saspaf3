@@ -242,15 +242,13 @@ button, input {
 #impact-content{
     margin-top: 8vh;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    width: 80vw;
 }
 
 #impact-text{
     width: 40vw;
 }
-
-
 
 #impact-img{
     width: 0vw;
@@ -280,18 +278,18 @@ button, input {
     margin-right: 1vw;
 }
 
-
 #stats{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 80vw;
     text-align: center;
+    margin-top: 2vh;
 }
 
 #stats-header{
     font-weight: 1000;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     margin-left: 10vw;
     margin-bottom: 2vh;
@@ -316,6 +314,55 @@ button, input {
     font-size: 30px;
     font-weight: 1000;
 }
+
+#volunteer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--third-color);
+}
+
+#volunteer-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+    margin-top: 10vh;
+}
+
+#volunteer-text{
+    width: 35vw;
+    font-size: 2rem;
+}
+
+#volunteer-btn{
+    width: 15vw;
+    height: 7vh;
+    background-color: var(--secondary-bg-color);
+    border: 2px solid white;
+    font-size: 1rem;
+    color: white;
+    font-weight: 1000;
+}
+
+#volunteer-btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+}
+
+#volunteer-text h1{
+    font-size: 5rem;
+}
+
+#volunteer-img{
+    margin-left: 10vw;
+    width: 40vw;
+    height: 50vh;
+    background-color:var(--secondary-bg-color);
+}
+
+
+
 #locations{
     display: flex;
     justify-content: center;
@@ -408,7 +455,7 @@ button, input {
 #donate{
     display: flex;
     justify-content: center;
-    background-color: #68b3a5
+    background-color: var(--third-color);
 }
 
 #donate h1{
@@ -449,71 +496,6 @@ button, input {
     opacity: 0.5;
     cursor: pointer;
 }
-
-#volunteer {
-    height: 400px;
-    background-color: #C7E4DF;
-}
-
-#volunteer-text h1 {
-    width: 500px;
-    height: 10px;
-    font-size: 50px;
-    text-align: left;
-    color: var(--secondary-bg-color);
-    margin: 120px;
-    margin-top: 8vh;
-    padding: 5px;
-}
-
-#volunteer-text p {
-    width: 500px;
-    margin: 120px;
-    height: 150px;
-    font-size: 30px;
-    color: var(--secondary-bg-color);
-}
-
-#volunteer button{
-    width: 500px;
-    padding: 25px 25px 25px 25px;
-    color: white;
-    background-color:var(--secondary-bg-color);
-    font-size: 1.5rem;
-    border: 2px solid white;
-}
-
-#volunteer button:hover{
-    opacity: 0.5;
-    cursor: pointer;
-    border: none;
-}
-
-#contact-form > input {
-    font-size: 15px;
-}
-
-#email-field {
-    height: 25px;
-    width: 150px;
-    border: none;
-}
-
-#submit-contact {
-    height: 25px;
-    width: 50px;
-    border: none;
-    outline: none;
-    transition: 0.3s all;
-}
-
-#submit-contact:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-
-
 
 
 
@@ -632,4 +614,27 @@ footer{
       background-color: var(--secondary-bg-color);
       width: 3vw;
   }
+
+  #contact-form > input {
+    font-size: 15px;
+   }
+
+   #email-field {
+    height: 25px;
+    width: 150px;
+    border: none;
+   }
+
+   #submit-contact {
+    height: 25px;
+    width: 50px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+   }
+
+   #submit-contact:hover {
+    cursor: pointer;
+    opacity: 0.7;
+   }
   

@@ -432,15 +432,16 @@ button, input {
 
 #donate{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: var(--third-color);
     height: 50vh;
     width: 100%;
+    padding-left: 20vw;
 }
 
 #donate-content{
     margin-top: 5vh;
-    text-align: center;
+    text-align: left;
     width: 35vw;
 }
 

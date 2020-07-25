@@ -37,6 +37,7 @@ a {
 .section {
     width: 100vw;
     min-height: 80vh;
+    padding: 50px 0px;
 }
 
 .button:hover{
@@ -171,6 +172,10 @@ body {
     text-indent: 10px;
 }
 
+#join {
+    min-height: 100vh;
+}
+
 button, input {
     font-family: var(--main-font-family);
 }
@@ -229,7 +234,7 @@ button, input {
 
 #impact{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: var(--secondary-section-color);
 }
 
@@ -427,15 +432,15 @@ button, input {
 
 #donate{
     display: flex;
+    justify-content: center;
     background-color: var(--third-color);
     height: 50vh;
     width: 100%;
 }
 
 #donate-content{
-    margin-left: 20vw;
     margin-top: 5vh;
-    text-align: left;
+    text-align: center;
     width: 35vw;
 }
 

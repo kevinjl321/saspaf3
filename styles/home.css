@@ -113,10 +113,6 @@ body {
     height: 35vh;
 }
 
-#mission-content{
-    margin-top: 2vh;
-}
-
 #mission-text{
     margin-top: 5vh;
     text-align: center;
@@ -130,6 +126,7 @@ body {
     flex-direction: row;
     margin-top: 3vh;
     width: 45vw;
+    text-align: center
 }
 
 #mission-icons i{

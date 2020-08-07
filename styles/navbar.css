@@ -26,9 +26,17 @@
     background-color: transparent;
     border: 2px solid white;
 }
-.nav-link {
+.nav-link:not(:last-child) {
     position: relative;
     top: 45px;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 1vw;
+}
+
+.nav-link:last-child{
+    position: relative;
+    top: 42px;
     display: inline-block;
     padding: 0px 10px;
     margin-right: 1vw;

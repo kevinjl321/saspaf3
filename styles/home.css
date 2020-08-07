@@ -143,13 +143,12 @@ body {
 #impact{
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 45vh;
     background-color: var(--secondary-section-color);
 }
 
 #impact-content{
-    display: flex;
-    justify-content: center;
+    margin-top: 5vh;
     flex-direction: column;
 }
 

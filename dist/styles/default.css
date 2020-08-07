@@ -44,3 +44,7 @@ a {
     opacity: 0.5;
     cursor: pointer;
 }
+
+button, input {
+    font-family: var(--main-font-family);
+}

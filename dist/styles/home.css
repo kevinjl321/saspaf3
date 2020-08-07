@@ -1,9 +1,3 @@
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 80vw;
-}
 
 body {
     background-color: var(--main-bg-color);
@@ -25,6 +19,7 @@ body {
 }
 */
 
+/*
 #join-title {
     border: 10px solid white;
     width: 1000px;
@@ -66,10 +61,6 @@ body {
     min-height: 100vh;
 }
 
-button, input {
-    font-family: var(--main-font-family);
-}
-
 #submit-btn {
     font-size: 1rem;
     background-color: var(--secondary-bg-color);
@@ -81,127 +72,123 @@ button, input {
     border: 2.5px solid white;
     transition: 0.3s all;
 }
+*/
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(63, 133, 74);
+}
+
+#home-text{
+    text-align: center;
+    width: 20vw;
+    color: white;
+}
+
+#home-text h1{
+    font-size: 3.5rem;
+}
+
+#home-text p{
+    font-size: 1.5rem;
+}
+
+#home-btn{
+    margin-top: 2vh;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white
+}
 
 #mission {
     display: flex;
     justify-content: center;
-    background-color: var(--secondary-bg-color);
+    background-color: rgb(241, 240, 236);
+    height: 35vh;
 }
 
 #mission-content{
-    margin-top: 15vh;
+    margin-top: 2vh;
 }
 
 #mission-text{
+    margin-top: 5vh;
+    text-align: center;
+    width: 45vw;
+    font-size: 1.5rem;
+}
+
+#mission-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3vh;
     width: 45vw;
 }
 
-#mission-text h1{
-    font-size: 3.5rem;
+#mission-icons i{
+    font-size: 3rem;
 }
 
-#mission-text p{
-    font-size: 2rem;
-}
-
-#mission-img{
+.mission-icon:not(:first-child){
     margin-left: 5vw;
-    width: 50vw;
-    height: 50vh;
-    background-color: var(--main-bg-color);
-}
-
-#mission-btn{
-    margin-top: 5vh;
-    height: 5vh;
-    width: 15vw;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: white;
-    font-weight: 1000;
-    border: 2px solid white;
 }
 
 #impact{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    height: 50vh;
     background-color: var(--secondary-section-color);
 }
 
 #impact-content{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 1vh;
 }
 
 #impact-text{
-    width: 40vw;
+    text-align: center;
+    width: 45vw;
 }
 
-#impact-img{
-    width: 0vw;
-}
-
-#img-intro{
-    display: flex;
-    justify-content: center;
-    width: 60vw;
-    font-size: 2rem;
-    flex-direction: row;
-}
-
-#impact-text h1{
-    font-size: 3.5rem;
-}
-
-#img-intro img{
-    width: 35vw;
-    height: 35vh;
-}
-
-.vl-impact{
-    width: 0.1vw;
-    height: 10vh;
-    background-color: black;
-    margin-right: 1vw;
+#impact-text p{
+    font-size: 1.5rem;
 }
 
 #stats{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 80vw;
-    text-align: center;
-    margin-top: 2vh;
-}
-
-#stats-header{
-    font-weight: 1000;
-    font-size: 1.5rem;
-    text-align: left;
-    margin-left: 10vw;
-    margin-bottom: 2vh;
+    width: 45vw;
 }
 
 #stats-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-top: 3vh;
 }
 
 .stat{
-    width: 10vw;
-    font-size: 20px;
+    text-align: center;
 }
 
-.stat:not(:first-child){
-    margin-right: 2vw;
+.stat:not(:last-child){
+    margin-right: 5vw;
+    font-size: 1rem;
 }
 
-#counting{
-    font-size: 30px;
-    font-weight: 1000;
+.stat i{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
 }
-
+/*
 #volunteer{
     display: flex;
     justify-content: center;
@@ -271,20 +258,18 @@ button, input {
     background-color: var(--secondary-bg-color);
     border-radius: 5px;
 }
+*/
 
 #upcoming{
-    background-color: var(--main-bg-color);
+    background-color: rgb(77, 184, 91);
     padding: 50px 0px;
 }
 
 #upcoming-title {
-    border: 5px solid white;
-    width: 500px;
     text-align: center;
-    color: var(--secondary-bg-color);
-    background-color: white;
+    color: white;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 .event {
@@ -322,31 +307,30 @@ button, input {
 
 #donate{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: var(--third-color);
-    height: 50vh;
+    height: 30vh;
     width: 100%;
-    padding-left: 20vw;
 }
 
 #donate-content{
+    text-align: center;
     margin-top: 5vh;
-    text-align: left;
-    width: 35vw;
+    width: 30vw;
 }
 
 #donate-content h1{
-    font-size: 3rem;
-}
-
-#donate-content p{
     font-size: 2rem;
 }
 
+#donate-content p{
+    font-size: 1.5rem;
+}
+
 #donate-btn{
-    margin-top: 3vh;
-    height: 5vh;
-    width: 10vw;
+    margin-top: 2vh;
+    height: 4.5vh;
+    width: 8vw;
     border-radius: 30px;
     border: none;
     color: white;

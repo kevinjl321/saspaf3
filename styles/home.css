@@ -5,21 +5,19 @@ body {
     overflow-x: hidden;
 }
 
+/*
 #locations{
     width: 100vw;
     min-height: 90vh;
 }
 
-/*
 .scew {
     transform: skewY(-2.5deg);
 }
 .unscew {
     transform: skewY(2.5deg);
 }
-*/
 
-/*
 #join-title {
     border: 10px solid white;
     width: 1000px;
@@ -78,13 +76,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     background-color: rgb(63, 133, 74);
 }
 
 #home-text{
     text-align: center;
-    width: 20vw;
+    width: 45vw;
     color: white;
 }
 
@@ -110,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(241, 240, 236);
-    height: 35vh;
+    height: 45vh;
 }
 
 #mission-text{
@@ -140,7 +138,7 @@ body {
 #impact{
     display: flex;
     justify-content: center;
-    height: 45vh;
+    height: 65vh;
     background-color: var(--secondary-section-color);
 }
 
@@ -257,7 +255,7 @@ body {
 */
 
 #upcoming{
-    background-color: rgb(77, 184, 91);
+    background-color: rgb(168, 223, 175);
     padding: 50px 0px;
 }
 
@@ -311,20 +309,21 @@ body {
 
 #donate-content{
     text-align: center;
-    margin-top: 5vh;
-    width: 30vw;
+    margin-top: 3vh;
+    width: 45vw;
 }
 
 #donate-content h1{
     font-size: 2rem;
+    font-weight: 1000;
 }
 
 #donate-content p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #donate-btn{
-    margin-top: 2vh;
+    margin-top: 1vh;
     height: 4.5vh;
     width: 8vw;
     border-radius: 30px;
@@ -332,7 +331,7 @@ body {
     color: white;
     background:var(--secondary-bg-color);
     box-shadow: 0 0 20px #14e67d;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 1000;
 }
 

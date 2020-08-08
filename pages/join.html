@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="icon" href="../images/logo.png">
         <script src="https://use.fontawesome.com/80d6b49951.js"></script>
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
     </head>
 
     <header>
@@ -55,8 +58,7 @@
             INSERT BANNER IMAGE
         </div>
         
-        <div id = "get-involved">
-            
+        <div id = "get-involved">  
             <div id = "join-text">
                 <h1>Get Involved</h1>
                 <br>
@@ -66,14 +68,43 @@
                 </p>
                 <hr>
             </div>
-            <div id = "ways-to-help">
-                <div id = "volunteer">
-                    <div id = "volunteer-text">
-                        
-                    </div>
+            <div id = "volunteer">
+                <div id = "volunteer-text">
+                    <h2>Volunteer with Us!</h2><br>
+                    <p>Join us at one of our events! You can help by packaging meals, donating 
+                        common household items, or by giving the gift of education to the less fortunate.
+                        Kind acts do not go unnoticed.
+                    </p>
+                    <button id = "volunteer-btn" class = "button">Learn More</button>
                 </div>
-                <div id = "become-member"></div>
-                <div id = "start-chapter"></div>
+                <div id = "volunteer-img">
+                    INSERT IMAGE
+                </div>
+            </div>
+            <div id = "chapter">
+                <div id = "chapter-text">
+                    <h2>Find a Chapter</h2>
+                    <br>
+                    <p>
+                        Interested in bringing the impact of SASPAF to a community near you? 
+                        Check out the interactive map on the right! If your community is not listed,
+                        start a chapter!
+                    </p>
+                    <button id = "chapter-btn" class = "button">Learn More</button>
+                </div>
+                <div id = "map"></div>
+            </div>
+        </div>
+
+        <div id = "donate">
+            <div id = "donate-content">
+               <h1>Pay it forward.</h1>
+               <br>
+               <p>Your generous, tax-deductible donation will be used to support
+                  our services and effort to make a difference in the lives of single parents.
+                </p>
+                <br>
+                <button class = "button" id = "donate-btn">DONATE NOW</button>
             </div>
         </div>
         
@@ -145,6 +176,6 @@
         </footer>
     </body>
 
-    <script src="" async defer></script>
+    <script src="../src/main.js" async defer></script>
 
 </html>

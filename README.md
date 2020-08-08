@@ -1,2 +1,7 @@
 # SASPAF
-SASPAF website. https://kevinjl321.github.io/saspaf/
+
+Website for nonprofit organization, SASPAF.
+---
+Check it out here: https://kevinjl321.github.io/saspaf/ 
+
+

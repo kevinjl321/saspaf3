@@ -1,0 +1,33 @@
+#img-div{
+    text-align: center;
+    margin-top: 8vh;
+    height: 15vh;
+    width: 100%;
+}
+
+#get-involved{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    background-color:rgb(221, 243, 214);
+}
+
+#join-text{
+    margin-top: 3vh;
+    width: 45vw;
+}
+
+#join-text h1{
+    font-size: 3.5rem;
+}
+
+#join-text p{
+    font-size: 1.5rem;
+}
+
+#join-text hr{
+    margin-top: 1vh;
+    height: 0.2vh;
+    background-color: black;
+}
+

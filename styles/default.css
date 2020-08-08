@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: 0 !important;
+    font-family: var(--main-font-family);
 }
 
 :root {
@@ -34,12 +35,6 @@ a {
     text-decoration: none;
 }
 
-.section {
-    width: 100vw;
-    min-height: 80vh;
-    padding: 50px 0px;
-}
-
 .button:hover{
     opacity: 0.5;
     cursor: pointer;
@@ -47,4 +42,10 @@ a {
 
 button, input {
     font-family: var(--main-font-family);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font-family);
+    overflow-x: hidden;
 }

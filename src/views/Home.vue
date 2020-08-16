@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import Home from '@/components/Home.vue'
-import Impact from '@/components/Impact.vue'
-import Mission from '@/components/Mission.vue'
-import Upcoming from '@/components/Upcoming.vue'
+import Home from '@/components/home/Home.vue'
+import Impact from '@/components/home/Impact.vue'
+import Mission from '@/components/home/Mission.vue'
+import Upcoming from '@/components/home/Upcoming.vue'
 import Donate from '@/components/Donate.vue'
 
 export default {

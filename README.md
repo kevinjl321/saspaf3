@@ -1,5 +1,5 @@
 # saspaf
-
+Website for nonprofit organization SASPAF.
 ## Project setup
 ```
 npm install

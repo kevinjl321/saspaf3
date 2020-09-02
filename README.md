@@ -1,5 +1,5 @@
 # saspaf.org
-Website for nonprofit organization SASPAF. Built with Vue + Vuetify.
+Website for nonprofit organization SASPAF. Built with Vue / Vuetify.
 ## Project setup
 ```
 npm install

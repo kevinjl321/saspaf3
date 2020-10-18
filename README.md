@@ -1,5 +1,5 @@
 # saspaf.org
-Website for nonprofit organization SASPAF. Built with Vue.js.
+Website for nonprofit organization SASPAF. Built with Vue.js and Vuetify. OUTDATED: check out saspaf.vercel.app to see the new website!
 ## Project setup
 ```
 npm install
